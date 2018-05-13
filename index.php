@@ -181,7 +181,6 @@
                                             <td>
                                                 <a href="select.php?id='.$row["case_no"].'" >Select</a>
                                                 <a href="update.php?id='.$row["case_no"].'" >Edit</a>                                                
-                                                <a href="delete.php?id='.$row["case_no"].'" >Delete</a>
                                             </td>
                                         </tr>
                                     </tbody>';

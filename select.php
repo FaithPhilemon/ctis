@@ -3,7 +3,7 @@ include("./includes/db.php");
 include("./includes/functions.php"); 
 include("./includes/header.php");
 
-if (!isset($_SESSION["userId"])) {
+if (isset($_SESSION["userId"])) {
   header("Location: login.php?statues=unauthourise");
 }
 
