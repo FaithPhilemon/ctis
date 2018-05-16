@@ -3,7 +3,7 @@
  include ("includes/sidebar.php"); 
  include ("includes/db.php") ;
  
- $caseUpdateSuccess = "";
+ $caseUpdateSuccess = $delete_message = "";
  
  if (isset($_GET["action"])) {
     $action = $_GET["action"];

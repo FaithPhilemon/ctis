@@ -93,8 +93,6 @@ include ("includes/sidebar.php");
         </div>
         <hr>
         </div>
-
-
     </div>
 </div>
 <?php include ("includes/footer.php") ?>
